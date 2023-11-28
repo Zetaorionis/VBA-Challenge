@@ -7,7 +7,7 @@ Dim ws As Worksheet
 'Main Loop
 For Each ws In Worksheets
     
- 
+    'Const statment advised and taught by Kourt Bailey during one on one tutoring
     Const FIRST_DATA_ROW As Integer = 2
     Const IN_TICKER_COL As Integer = 1
     Const OUT_TICKER_COL As Integer = 9
